@@ -1,0 +1,8 @@
+
+.tab-labels {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
