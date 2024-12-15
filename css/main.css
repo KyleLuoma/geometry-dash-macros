@@ -1,8 +1,19 @@
 
+.tab-labels {
+    display: flex;
+    flex-direction: row;
+}
+
 .tab-label {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
     border: 1px solid grey;
     border-radius: 5px;
+    width: 150px;
+    transition: background-color 0.3s;
+}
+
+.tab-label:hover {
+    background-color: lightblue;
 }
