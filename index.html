@@ -10,12 +10,36 @@
     <h1>Geometry Dash Macros</h1>
     <div class="tabs">
         <div class="tab-labels">
-            <label class="tab-label" for="tab1" hx-get="/main-levels-content.html" hx-trigger="click" hx-target="#main-content" hx-swap="outerHTML">Main Levels</label>
-            <label class="tab-label" for="tab2">Hacked</label>
-            <label class="tab-label" for="tab3">Normal</label>
-            <label class="tab-label" for="tab4">Recent</label>
-            <label class="tab-label" for="tab5">Upload</label>
-            <label class="tab-label" for="tab6">Settings</label>
+            <label class="tab-label" for="tab1" 
+                hx-get="/pages/robtop-levels.html" 
+                hx-trigger="click" 
+                hx-target="#main-content" 
+                hx-swap="outerHTML"
+            >RobTop Levels</label>
+            <label class="tab-label" for="tab2"
+                hx-get="/pages/hacked-macros.html" 
+                hx-trigger="click" 
+                hx-target="#main-content" 
+                hx-swap="outerHTML"
+                >Hacked Dash Series</label>
+            <label class="tab-label" for="tab3"
+                hx-get="/pages/normal-levels.html" 
+                hx-trigger="click" 
+                hx-target="#main-content" 
+                hx-swap="outerHTML"
+            >Normal</label>
+            <label class="tab-label" for="tab4"
+                hx-get="/pages/TOTHERECENTTAB.html" 
+                hx-trigger="click" 
+                hx-target="#main-content" 
+                hx-swap="outerHTML"
+            >Recent</label>
+            <label class="tab-label" for="tab5"
+                hx-get="/pages/upload.html" 
+                hx-trigger="click" 
+                hx-target="#main-content" 
+                hx-swap="outerHTML"
+            >Upload</label>
         </div>
     </div>
     <div id="main-content">
